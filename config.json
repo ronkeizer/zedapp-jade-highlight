@@ -1,7 +1,11 @@
 {
-    commands: {
-        "Test command": {
-            scriptUrl: "./command.js"
+    modes: {
+        javascript: {
+            name: "JavaScript",
+            highlighter: "ace/mode/jade",
+            extensions: [
+                "jade"
+            ]
         }
     }
 }
