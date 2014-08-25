@@ -1,13 +1,7 @@
 {
-    "name": "Jade mode",
-    "uri": "gh:ronkeizer/zedapp-jade-mode",
-    "version": "0.2",
+    "name": "Jade mode for Zed",
+    "uri": "gh:ronkeizer/jade-highlighter",
+    "version": "0.1",
     "description": "Jade mode for Zed",
-    "files": [
-        "ace-uncompressed.js",
-        "mode-css.js",
-        "mode-jade.js",
-        "mode-javascript.js",
-        "theme-vibrant_ink.js"
-    ]
+    "files": []
 }

@@ -1,26 +1,7 @@
 {
-    modes: {
-        javascript: {
-            name: "JavaScript",
-            highlighter: "ace/mode/javascript",
-            extensions: [
-                "jade"
-            ],
-            completionTriggers: ["."],
-            commands: {
-                "Tools:Index": {
-                    scriptUrl: "./index.js",
-                    inputs: {
-                        text: true
-                    },
-                    internal: true
-                }
-            },
-            handlers: {
-                index: [
-                    "Tools:Index"
-                ]
-            }
+    commands: {
+        "Test command": {
+            scriptUrl: "./command.js"
         }
     }
 }
