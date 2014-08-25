@@ -1,7 +1,0 @@
-WIP
-
-Relevant links: 
-http://pcwalton.blogspot.com/2010/11/syntax-highlighting-specification.html
-https://github.com/ajaxorg/ace/wiki/Creating-or-Extending-an-Edit-Mode
-Existing highlighters https://github.com/ajaxorg/ace/tree/master/lib/ace/mode
-Jade https://github.com/visionmedia/jade
