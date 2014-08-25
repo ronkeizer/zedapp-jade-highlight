@@ -1,0 +1,45 @@
+<html>
+<head>
+  <script type="text/javascript" src="ace-uncompressed.js"></script>
+  <script type="text/javascript" src="mode-javascript.js"></script>
+  <script type="text/javascript" src="mode-css.js"></script>
+  <script type="text/javascript" src="mode-jade.js"></script>
+  <script type="text/javascript" src="theme-vibrant_ink.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    window.onload = function() {
+      var editor = ace.edit("editor");
+      var JadeMode = require("ace/mode/jade").Mode;
+
+      editor.getSession().setMode(new JadeMode());
+      editor.setTheme("ace/theme/vibrant_ink");
+      editor.getSession().setTabSize(2);
+    };
+  </script>
+</head>
+<body>
+<div id="editor" style="width: 600px; height: 400px;">!!! 5
+  html(lang="en")
+    head
+      title= pageTitle
+      script(type='text/javascript')
+        if (foo) {
+           bar()
+        }
+    body
+      // Super cool!
+      h1 Jade - node template engine
+      #container
+        - if (youAreUsingJade)
+          p You are amazing
+        - else
+          p Get on it!
+          p
+            | foo bar baz
+            | rawr rawr
+            | super cool
+            | go jade go
+          each boy, girl in bar
+            
+          </div>
+</body>
+</html>
